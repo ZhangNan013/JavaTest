@@ -36,5 +36,7 @@ jobs:
 
     - name: Build java
       run: javac .\Java\*\*.java
+    
+    - name: Run java
       run: java *.class
 
