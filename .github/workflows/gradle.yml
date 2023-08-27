@@ -38,5 +38,5 @@ jobs:
       run: javac ./Java/Test01/Test.java
     
     - name: Run java
-      run: java *.class
+      run: java Test.class
 
