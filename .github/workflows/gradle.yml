@@ -35,7 +35,7 @@ jobs:
       run: ls ${{ github.workspace }}
 
     - name: Build java
-      run: javac .\Java\*\*.java
+      run: javac ./Java/Test01/Test.java
     
     - name: Run java
       run: java *.class
